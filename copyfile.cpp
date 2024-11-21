@@ -46,7 +46,7 @@ namespace FilecpyNS
         //    ofBinCpyFile.put(vcfromsrc[i]);
 
         // write all content in binary form
-        for(char insert : vcfromsrc)
+        for(char insert : vcfromsrc) 
             ofBinCpyFile.put(insert);
     }
 }
